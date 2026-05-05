@@ -12,7 +12,7 @@ Currently studying BS Cyber/Computer Forensics at **UMT Lahore** and serving as 
 
 I build my own tooling rather than just running canned scanners. Five security tools shipped so far — from a full OWASP Top 10 audit suite to a GPU-free deepfake forensic engine.
 
-Open to **junior pentesting roles and cybersecurity internships**. Pursuing **eJPT** next.
+Open to **collabs and breaking stuffs(legally)**.
 
 ---
 
