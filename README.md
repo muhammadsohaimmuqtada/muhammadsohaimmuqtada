@@ -12,7 +12,64 @@ Currently studying BS Cyber/Computer Forensics at **UMT Lahore** and serving as 
 
 I build my own tooling rather than just running canned scanners. Five security tools shipped so far — from a full OWASP Top 10 audit suite to a GPU-free deepfake forensic engine.
 
-Open to **collabs and breaking stuffs(legally)**.
+Open to **collabs and breaking stuffs(legally)**.# Sohaim Muqtada
+
+Cybersecurity student at UMT Lahore working on application security,
+offensive security, security tooling, and applied cryptography.
+
+I spend most of my time understanding how systems behave at the
+implementation level — tracing application flows, testing authorization
+and business logic, writing tooling, and building environments where
+security problems can be reproduced properly.
+
+## Current focus
+
+- Application security and web authorization
+- Offensive security and vulnerability research
+- Security tooling and automation
+- Post-quantum cryptography on constrained devices
+- AI governance and security through Jaiza
+
+## Selected work
+
+### Hybrid Post-Quantum Key Exchange on ESP32
+Hybrid X25519 + ML-KEM-512 key exchange and secure telemetry for
+resource-constrained ESP32 devices.
+
+Includes firmware, verification backend, benchmarks, test vectors,
+documentation, and reproducible research artifacts.
+
+[Repository](https://github.com/muhammadsohaimmuqtada/esp32-hybrid-pqc-key-exchange)
+
+### DEDSEC
+Modular reconnaissance framework for authorized web security testing.
+
+Includes WAF fingerprinting, DNS reconnaissance, TLS inspection,
+subdomain enumeration, endpoint extraction, and structured reporting.
+
+[Repository](https://github.com/muhammadsohaimmuqtada/dedsec)
+
+### Logic Lab Security
+Multi-tenant Flask security lab for studying authorization,
+tenant isolation, CSRF, IDOR, and business-logic behavior.
+
+[Repository](https://github.com/muhammadsohaimmuqtada/logic-lab-security)
+
+### Web Pentester
+Python-based web security testing toolkit for repeatable application
+security checks.
+
+[Repository](https://github.com/muhammadsohaimmuqtada/web-pentester)
+
+## Tools & languages
+
+Python · Bash · C · Flask · Linux · Burp Suite · Git · Solidity
+
+## Elsewhere
+
+LinkedIn: https://www.linkedin.com/in/sohaim-muqtada/
+
+Jaiza: https://jaiza-chi.vercel.app/
 
 ---
 
