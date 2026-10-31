@@ -41,7 +41,7 @@ Cybersecurity student at **UMT Lahore** — working close to the implementation:
 
 - **Director** — UMT CyberSecurity Society
 - **Intern** — Dafi Labs × EmpRadar.ai
-- **28★** earned across 21 public repos
+- **Public tooling** — recon frameworks, PQC firmware, security labs
 
     </td>
   </tr>
@@ -49,46 +49,25 @@ Cybersecurity student at **UMT Lahore** — working close to the implementation:
 
 ### // selected work
 
-<table>
-  <tr>
-    <td width="50%" valign="top">
+**[esp32-hybrid-pqc-key-exchange](https://github.com/muhammadsohaimmuqtada/esp32-hybrid-pqc-key-exchange)** — `C` · `ESP-IDF` · `PQC`  
+Hybrid X25519 + ML-KEM-768 key exchange & secure telemetry for ESP32 — firmware, verification backend, benchmarks, reproducible test vectors.
 
-**[esp32-hybrid-pqc-key-exchange](https://github.com/muhammadsohaimmuqtada/esp32-hybrid-pqc-key-exchange)**  
-Hybrid X25519 + ML-KEM-768 key exchange & secure telemetry for ESP32 — firmware, verification backend, benchmarks, reproducible test vectors.  
-`C` · `ESP-IDF` · `PQC`
+**[logic-lab-security](https://github.com/muhammadsohaimmuqtada/logic-lab-security)** — `Flask` · `AppSec`  
+Intentionally vulnerable multi-tenant SaaS — authorization, tenant isolation, workflow, commerce & race-condition labs.
 
-    </td>
-    <td width="50%" valign="top">
+**[dedsec](https://github.com/muhammadsohaimmuqtada/dedsec)** — `Python` · `Recon`  
+13-module recon framework for authorized web testing — WAF fingerprinting, DNS, TLS, subdomains, structured reports.
 
-**[logic-lab-security](https://github.com/muhammadsohaimmuqtada/logic-lab-security)**  
-Intentionally vulnerable multi-tenant SaaS — authorization, tenant isolation, workflow, commerce & race-condition labs.  
-`Flask` · `AppSec`
-
-    </td>
-  </tr>
-  <tr>
-    <td width="50%" valign="top">
-
-**[dedsec](https://github.com/muhammadsohaimmuqtada/dedsec)**  
-13-module recon framework for authorized web testing — WAF fingerprinting, DNS, TLS, subdomains, structured reports.  
-`Python` · `Recon`
-
-    </td>
-    <td width="50%" valign="top">
-
-**[php2shell-version-frontier](https://github.com/muhammadsohaimmuqtada/php2shell-version-frontier)**  
-Measured php2shell (CVE-2026-109618/109619) RCE frontier on amd64 — gdb crash forensics, per-build profiles, method.  
-`Python` · `CVE`
-
-    </td>
-  </tr>
-</table>
+**[php2shell-version-frontier](https://github.com/muhammadsohaimmuqtada/php2shell-version-frontier)** — `Python` · `CVE`  
+Measured php2shell (CVE-2026-109618/109619) RCE frontier on amd64 — gdb crash forensics, per-build profiles, method.
 
 ### // telemetry
 
-<img src="https://github-readme-stats.vercel.app/api?username=muhammadsohaimmuqtada&show_icons=true&hide_border=true&bg_color=0b1122&title_color=e9eefb&text_color=9aa7c2&icon_color=6fc3f7" alt="GitHub stats" width="49%" align="top" /><img src="https://github-readme-stats.vercel.app/api/top-langs/?username=muhammadsohaimmuqtada&layout=compact&hide_border=true&bg_color=0b1122&title_color=e9eefb&text_color=9aa7c2" alt="Top languages" width="49%" align="top" />
+<img src="assets/stats.svg" alt="GitHub stats — repos, stars, followers and language split" width="470" />
 
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=muhammadsohaimmuqtada&bg_color=0b1122&color=9aa7c2&line=6fc3f7&point=d6e4ff&area=true&hide_border=true&custom_title=Commit%20activity" alt="Commit activity graph" width="100%" />
+<img src="assets/activity.svg" alt="Commit activity heatmap for the last twelve months" width="100%" />
+
+*Telemetry is generated from the live GitHub API and refreshed daily via GitHub Actions.*
 
 ---
 
