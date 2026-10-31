@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 470 30" width="470" height="30" role="img" aria-label="Typing animation: current focus areas">
+  <style>
+    text{font-family:ui-monospace,'JetBrains Mono',Menlo,Consolas,monospace;font-size:13px}
+  </style>
+  <defs>
+    <clipPath id="c0"><rect x="32" y="0" width="0" height="30">
+      <animate attributeName="width" dur="20s" repeatCount="indefinite" values="0;0;372;372;0;0" keyTimes="0;0;0.08;0.20;0.25;1"/>
+    </rect></clipPath>
+    <clipPath id="c1"><rect x="32" y="0" width="0" height="30">
+      <animate attributeName="width" dur="20s" repeatCount="indefinite" values="0;0;315;315;0;0" keyTimes="0;0.25;0.33;0.45;0.50;1"/>
+    </rect></clipPath>
+    <clipPath id="c2"><rect x="32" y="0" width="0" height="30">
+      <animate attributeName="width" dur="20s" repeatCount="indefinite" values="0;0;396;396;0;0" keyTimes="0;0.50;0.58;0.70;0.75;1"/>
+    </rect></clipPath>
+    <clipPath id="c3"><rect x="32" y="0" width="0" height="30">
+      <animate attributeName="width" dur="20s" repeatCount="indefinite" values="0;0;298;298;0" keyTimes="0;0.75;0.83;0.95;1"/>
+    </rect></clipPath>
+  </defs>
+
+  <rect x="0.5" y="0.5" width="469" height="29" rx="9" fill="#0b1122" stroke="#253154"/>
+  <text x="13" y="20" fill="#6fc3f7">&#9656;</text>
+
+  <g clip-path="url(#c0)"><text x="32" y="20" fill="#9aa7c2">application security &amp; authorization testing</text></g>
+  <g clip-path="url(#c1)"><text x="32" y="20" fill="#9aa7c2">offensive tooling that actually ships</text></g>
+  <g clip-path="url(#c2)"><text x="32" y="20" fill="#9aa7c2">post-quantum crypto on 240 MHz microcontrollers</text></g>
+  <g clip-path="url(#c3)"><text x="32" y="20" fill="#9aa7c2">labs where bugs reproduce on demand</text></g>
+</svg>

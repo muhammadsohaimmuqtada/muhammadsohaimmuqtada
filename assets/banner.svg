@@ -1,0 +1,102 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 200" width="900" height="200" role="img" aria-label="Synthwave banner: neon sun, skyline and grid — cyber security research">
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#070b18"/>
+      <stop offset=".6" stop-color="#101838"/>
+      <stop offset="1" stop-color="#2a1f52"/>
+    </linearGradient>
+    <linearGradient id="sun" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#ffe9b8"/>
+      <stop offset=".5" stop-color="#ff9ac4"/>
+      <stop offset="1" stop-color="#8f7bff"/>
+    </linearGradient>
+    <linearGradient id="glow" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#ff9ac4" stop-opacity=".35"/>
+      <stop offset="1" stop-color="#ff9ac4" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="scan" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#8cbeff" stop-opacity="0"/>
+      <stop offset=".5" stop-color="#8cbeff" stop-opacity=".08"/>
+      <stop offset="1" stop-color="#8cbeff" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+  <style>
+    .st{animation:tw 4s ease-in-out infinite}
+    @keyframes tw{50%{opacity:.3}}
+    .sun{animation:pulse 6s ease-in-out infinite}
+    @keyframes pulse{50%{opacity:.9}}
+    .scanline{animation:scanmove 7s linear infinite}
+    @keyframes scanmove{0%{transform:translateY(-80px)}100%{transform:translateY(220px)}}
+    .petal{transform-box:fill-box;transform-origin:center;animation:fall linear infinite}
+    @keyframes fall{0%{transform:translate(0,-14px) rotate(0deg)}100%{transform:translate(-16px,224px) rotate(300deg)}}
+  </style>
+
+  <rect width="900" height="200" fill="url(#sky)"/>
+
+  <g fill="#d6e4ff">
+    <circle class="st" cx="70" cy="30" r="1.2"/>
+    <circle class="st" cx="170" cy="52" r="1" style="animation-delay:.8s"/>
+    <circle class="st" cx="265" cy="26" r="1.1" style="animation-delay:1.4s"/>
+    <circle class="st" cx="352" cy="56" r="1" style="animation-delay:.4s"/>
+    <circle class="st" cx="545" cy="30" r="1.1" style="animation-delay:1.9s"/>
+    <circle class="st" cx="640" cy="50" r="1" style="animation-delay:1.1s"/>
+    <circle class="st" cx="735" cy="24" r="1.2" style="animation-delay:2.3s"/>
+    <circle class="st" cx="830" cy="48" r="1" style="animation-delay:.6s"/>
+  </g>
+
+  <circle class="sun" cx="450" cy="116" r="52" fill="url(#sun)"/>
+  <g fill="#141031">
+    <rect x="398" y="96" width="104" height="2.5"/>
+    <rect x="398" y="107" width="104" height="3.5"/>
+    <rect x="398" y="119" width="104" height="4.5"/>
+    <rect x="398" y="132" width="104" height="6"/>
+    <rect x="398" y="146" width="104" height="8"/>
+  </g>
+
+  <g fill="#0c0a22">
+    <rect y="148" width="900" height="52"/>
+    <rect x="36" y="130" width="24" height="20"/>
+    <rect x="86" y="138" width="16" height="12"/>
+    <rect x="128" y="132" width="12" height="18"/>
+    <rect x="706" y="128" width="28" height="22"/>
+    <rect x="760" y="138" width="20" height="12"/>
+    <rect x="816" y="130" width="14" height="20"/>
+  </g>
+  <g fill="#ffd166" opacity=".5">
+    <rect x="41" y="136" width="2.5" height="2.5"/>
+    <rect x="49" y="142" width="2.5" height="2.5"/>
+    <rect x="90" y="143" width="2.5" height="2.5"/>
+    <rect x="131" y="138" width="2.5" height="2.5"/>
+    <rect x="711" y="134" width="2.5" height="2.5"/>
+    <rect x="721" y="141" width="2.5" height="2.5"/>
+    <rect x="820" y="136" width="2.5" height="2.5"/>
+  </g>
+
+  <rect y="148" width="900" height="10" fill="url(#glow)"/>
+  <line x1="0" y1="148.5" x2="900" y2="148.5" stroke="#ff9ac4" stroke-opacity=".7" stroke-width="1.2"/>
+  <g stroke="#8fb0ff" stroke-opacity=".3" stroke-width="1">
+    <line x1="0" y1="158" x2="900" y2="158"/>
+    <line x1="0" y1="170" x2="900" y2="170"/>
+    <line x1="0" y1="186" x2="900" y2="186"/>
+    <line x1="450" y1="149" x2="-320" y2="200"/>
+    <line x1="450" y1="149" x2="-80" y2="200"/>
+    <line x1="450" y1="149" x2="160" y2="200"/>
+    <line x1="450" y1="149" x2="320" y2="200"/>
+    <line x1="450" y1="149" x2="450" y2="200"/>
+    <line x1="450" y1="149" x2="580" y2="200"/>
+    <line x1="450" y1="149" x2="740" y2="200"/>
+    <line x1="450" y1="149" x2="980" y2="200"/>
+    <line x1="450" y1="149" x2="1220" y2="200"/>
+  </g>
+
+  <text x="450" y="28" text-anchor="middle" font-size="11" letter-spacing="6" fill="#d6e4ff" opacity=".78" font-family="'Noto Sans JP','Hiragino Sans','Yu Gothic',sans-serif">サイバーセキュリティ・リサーチ</text>
+
+  <rect class="scanline" x="0" y="70" width="900" height="60" fill="url(#scan)"/>
+
+  <g fill="#ff9ec6" opacity=".45">
+    <rect class="petal" x="108" y="-10" width="6" height="6" rx="1" style="animation-duration:9s"/>
+    <rect class="petal" x="342" y="-10" width="6" height="6" rx="1" style="animation-duration:11s;animation-delay:2.5s"/>
+    <rect class="petal" x="567" y="-10" width="6" height="6" rx="1" style="animation-duration:10s;animation-delay:5s"/>
+    <rect class="petal" x="765" y="-10" width="6" height="6" rx="1" style="animation-duration:12s;animation-delay:1.2s"/>
+  </g>
+</svg>

@@ -1,41 +1,95 @@
+<img src="assets/banner.svg" alt="Sohaim Muqtada — cyber security research banner" width="100%" />
+
 # Sohaim Muqtada
 
-Cybersecurity student at UMT Lahore working on application security, offensive security, security tooling, and applied cryptography.
+<img src="assets/typing.svg" alt="Current focus" width="470" />
 
-I like working close to the implementation: tracing application flows, testing authorization and business logic, reading traffic, writing tooling, and building small environments where security problems can be reproduced properly.
+Cybersecurity student at **UMT Lahore** — working close to the implementation: application security, offensive tooling, and applied post-quantum cryptography on constrained devices.
 
-## Current work
+![Python](https://img.shields.io/badge/Python-3572A5?style=flat-square&logo=python&logoColor=white)
+![C](https://img.shields.io/badge/C-A8B9CC?style=flat-square&logo=c&logoColor=black)
+![Rust](https://img.shields.io/badge/Rust-DEA584?style=flat-square&logo=rust&logoColor=black)
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
+![Flask](https://img.shields.io/badge/Flask-092E20?style=flat-square&logo=flask&logoColor=white)
+![Linux](https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black)
+![Burp Suite](https://img.shields.io/badge/Burp%20Suite-FF6633?style=flat-square&logo=burpsuite&logoColor=white)
+![Solidity](https://img.shields.io/badge/Solidity-363636?style=flat-square&logo=solidity&logoColor=white)
 
-- Application security and vulnerability research
-- Web authorization and business-logic testing
-- Security tooling and automation
-- Post-quantum cryptography on constrained devices
-- AI governance and security through [Jaiza](https://jaiza-chi.vercel.app/)
-- Blockchain development internship with Dafi Labs in collaboration with EmpRadar.ai
+<table>
+  <tr>
+    <td width="33.3%" valign="top">
 
-## Selected work
+### Now
 
-### [Hybrid Post-Quantum Key Exchange on ESP32](https://github.com/muhammadsohaimmuqtada/esp32-hybrid-pqc-key-exchange)
-Hybrid X25519 + ML-KEM-512 key exchange and secure telemetry for resource-constrained ESP32 devices, with firmware, a verification backend, benchmarks, test vectors, documentation, and reproducibility material.
+- **CVE research** — php2shell RCE frontier on amd64
+- **Hybrid PQC signing** on ESP32-S3
+- **AI governance & security** — [Jaiza](https://jaiza-chi.vercel.app/)
 
-### [DEDSEC](https://github.com/muhammadsohaimmuqtada/dedsec)
-Modular reconnaissance framework for authorized web security testing, covering WAF fingerprinting, DNS reconnaissance, TLS inspection, subdomain enumeration, endpoint extraction, and structured reporting.
+    </td>
+    <td width="33.3%" valign="top">
 
-### [Logic Lab Security](https://github.com/muhammadsohaimmuqtada/logic-lab-security)
-Multi-tenant Flask security lab for studying authorization, tenant isolation, CSRF, IDOR, and business-logic behavior.
+### Focus
 
-### [Web Pentester](https://github.com/muhammadsohaimmuqtada/web-pentester)
-Python web-security testing toolkit for repeatable application security checks, structured findings, verification, and reporting.
+- **Authorization** & business-logic testing
+- **Security tooling** & automation
+- **Applied crypto** on constrained devices
 
-## Tools and languages
+    </td>
+    <td width="33.3%" valign="top">
 
-Python · Bash · C · Flask · Linux · Burp Suite · Git · Solidity · Hardhat
+### Signal
 
-## Elsewhere
+- **Director** — UMT CyberSecurity Society
+- **Intern** — Dafi Labs × EmpRadar.ai
+- **28★** earned across 21 public repos
 
-- [LinkedIn](https://www.linkedin.com/in/sohaim-muqtada/)
-- [Jaiza](https://jaiza-chi.vercel.app/)
+    </td>
+  </tr>
+</table>
+
+### // selected work
+
+<table>
+  <tr>
+    <td width="50%" valign="top">
+
+**[esp32-hybrid-pqc-key-exchange](https://github.com/muhammadsohaimmuqtada/esp32-hybrid-pqc-key-exchange)**  
+Hybrid X25519 + ML-KEM-768 key exchange & secure telemetry for ESP32 — firmware, verification backend, benchmarks, reproducible test vectors.  
+`C` · `ESP-IDF` · `PQC`
+
+    </td>
+    <td width="50%" valign="top">
+
+**[logic-lab-security](https://github.com/muhammadsohaimmuqtada/logic-lab-security)**  
+Intentionally vulnerable multi-tenant SaaS — authorization, tenant isolation, workflow, commerce & race-condition labs.  
+`Flask` · `AppSec`
+
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+
+**[dedsec](https://github.com/muhammadsohaimmuqtada/dedsec)**  
+13-module recon framework for authorized web testing — WAF fingerprinting, DNS, TLS, subdomains, structured reports.  
+`Python` · `Recon`
+
+    </td>
+    <td width="50%" valign="top">
+
+**[php2shell-version-frontier](https://github.com/muhammadsohaimmuqtada/php2shell-version-frontier)**  
+Measured php2shell (CVE-2026-109618/109619) RCE frontier on amd64 — gdb crash forensics, per-build profiles, method.  
+`Python` · `CVE`
+
+    </td>
+  </tr>
+</table>
+
+### // telemetry
+
+<img src="https://github-readme-stats.vercel.app/api?username=muhammadsohaimmuqtada&show_icons=true&hide_border=true&bg_color=0b1122&title_color=e9eefb&text_color=9aa7c2&icon_color=6fc3f7" alt="GitHub stats" width="49%" align="top" /><img src="https://github-readme-stats.vercel.app/api/top-langs/?username=muhammadsohaimmuqtada&layout=compact&hide_border=true&bg_color=0b1122&title_color=e9eefb&text_color=9aa7c2" alt="Top languages" width="49%" align="top" />
+
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=muhammadsohaimmuqtada&bg_color=0b1122&color=9aa7c2&line=6fc3f7&point=d6e4ff&area=true&hide_border=true&custom_title=Commit%20activity" alt="Commit activity graph" width="100%" />
 
 ---
 
-Technical Team Director, UMT CyberSecurity Society
+**Technical Team Director, UMT CyberSecurity Society** · [LinkedIn](https://www.linkedin.com/in/sohaim-muqtada/) · [Jaiza](https://jaiza-chi.vercel.app/)
